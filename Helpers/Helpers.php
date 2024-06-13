@@ -6,6 +6,10 @@ function base_url()
     return BASE_URL;
 }
 
+function media() {
+    return BASE_URL. "Assets/";
+}
+
 //Retorna la información ya formateada
 function dep($data)
 {

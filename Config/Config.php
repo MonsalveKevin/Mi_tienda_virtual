@@ -10,7 +10,7 @@ date_default_timezone_set('America/Bogota');
 const DB_HOST = "localhost";
 const DB_USER = "root";
 const DB_PASSWORD = "";
-const DB_NAME = "db_tienda";
+const DB_NAME = "";
 const DB_CHARSET = "charset=utf8";
 
 //Delimitadores decimal y millar Ejemplo: 12.500,00
