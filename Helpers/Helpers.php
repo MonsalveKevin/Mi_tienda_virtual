@@ -7,7 +7,7 @@ function base_url()
 }
 
 function media() {
-    return BASE_URL. "Assets/";
+    return BASE_URL. "/Assets/";
 }
 
 //Retorna la información ya formateada
@@ -81,7 +81,6 @@ function token()
 }
 
 //Función para dar formato a valores monetarios
-
 function formatoMoneda($valor)
 {
     return number_format($valor, 0, SPM, SPD);

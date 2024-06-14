@@ -1,7 +1,7 @@
 <?php
 
 // Variables constantes
-const BASE_URL = "http://localhost/mi_tienda_virtual/";
+const BASE_URL = "http://localhost/mi_tienda_virtual";
 
 //Zona horaria de Colombia
 date_default_timezone_set('America/Bogota');
