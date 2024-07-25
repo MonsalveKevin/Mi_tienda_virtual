@@ -10,6 +10,18 @@ function media() {
     return BASE_URL. "/Assets/";
 }
 
+//Retorna el archivo que contiene el header de la vista administrador
+function headerAdmin($data= "") {
+    $view_header = "Views/Template/header_admin.php";
+    require_once $view_header;
+}
+
+//Retorna el archivo que contiene el footer de la vista administrador
+function footerAdmin($data= "") {
+    $view_footer = "Views/Template/footer_admin.php";
+    require_once $view_footer;
+}
+
 //Retorna la información ya formateada
 function dep($data)
 {
@@ -17,6 +29,12 @@ function dep($data)
     $format .= print_r($data);
     $format .= print_r("</pre>");
     return $format;
+}
+
+//Retornar modals o ventanas de formularios
+function getModal(string $nameModal, $data){
+    $view_modal =  "Views/Template/Modals/{$nameModal}.php";
+    require_once $view_modal;
 }
 
 //Función para limpiar cadenas de caracteres

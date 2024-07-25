@@ -9,7 +9,7 @@ class Dashboard extends Controllers {
     {
         $data['page_id'] = 2;
         $data['page_tag'] = "Dashboard";
-        $data['page_title'] = "Dashboard - Tienda virtal";
+        $data['page_title'] = "Dashboard - Tienda virtual";
         $data['page_name'] = "dashboard";
         $this->views->getView($this, 'dashboard',$data); 
     }
